@@ -1,22 +1,10 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio-server",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://Eishta.github.io/Portfolio",
   "main": "index.js",
   "scripts": {
-    "server": "node server/index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "start": "node server/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^7.0.0",
-    "gh-pages": "^3.2.3"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -25,7 +13,6 @@
     "redux-logger": "^3.0.6",
     "request": "^2.88.2"
   },
-  "engines": {
-    "node": "12.17.0"
-  }
+  "author": "",
+  "license": "ISC"
 }
