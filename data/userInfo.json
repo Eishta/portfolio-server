@@ -1,154 +1,215 @@
 {
-    "about": {
-        "exp": 4,
-        "projects": 5,
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste totam quae porro aperiam magnam tenetur necessitatibus voluptates non dolore dolorum tempore sed modi officiis rerum, repudiandae quod, possimus iusto reiciendis."
-    },
-    "skills": {
-        "languages": [
-            "React.js",
-            "Javascript",
-            "CSS",
-            "HTML"
-        ],
-        "tools": [
-            "GIT",
-            "Jira",
-            "VS code"
-        ]
-    },
-    "experience": [
-        {
-            "org": "Nagarro Software Private Limited",
-            "position": "Senior Software Engineer",
-            "workPeriod": "Nov 2020 - Dec 2021"
-        },
-        {
-            "org": "Sopra Steria",
-            "position": "Senior Engineer",
-            "workPeriod": "Feb 2019 - Nov 2020"
-        },
-        {
-            "org": "Sopra Steria",
-            "position": "Junior Engineer",
-            "workPeriod": "Nov 2017 - Feb 2019"
-        }
-    ],
-    "services": {
-        "uiUx": [],
-        "webDev": [],
-        "content": []
-    },
-    "socialLinks": {
-        "linkedIn": "",
-        "github": "",
-        "medium": ""
-    },
-    "contact": {
-        "email": "eishtamittal9@gmail.com",
-        "phoneNumber": "9999999999",
-        "messenger": ""
-    },
-    "testimonials": [
-        {
-            "name": "Ernest Achiever",
-            "image": "/avatar1.jpg",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque laboriosam quam beatae soluta eligendi laudantium nihil est quia repudiandae fugiat unde eos sapiente voluptate, architecto autem modi repellendus quis?"
-        },
-        {
-            "name": "Ernest Achiever",
-            "image": "/avatar2.jpg",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque laboriosam quam beatae soluta eligendi laudantium nihil est quia repudiandae fugiat unde eos sapiente voluptate, architecto autem modi repellendus quis?"
-        },
-        {
-            "name": "Ernest Achiever",
-            "image": "/avatar3.jpg",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque laboriosam quam beatae soluta eligendi laudantium nihil est quia repudiandae fugiat unde eos sapiente voluptate, architecto autem modi repellendus quis?"
-        }
-    ],
-    "projects": [
-        {
-            "name": "Project1",
-            "image": "/portfolio1.jpg",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem",
-            "isDsa": true,
-            "isFront": false,
-            "isBackend": false
-        },
-        {
-            "name": "Project2",
-            "image": "/portfolio2.jpg",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem  ",
-            "isDsa": true,
-            "isFront": false,
-            "isBackend": false
-        },
-        {
-            "name": "Project3",
-            "image": "/portfolio3.jpg",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem  ",
-            "isDsa": false,
-            "isFront": true,
-            "isBackend": false
-        },
-        {
-            "name": "Project4",
-            "image": "/portfolio4.jpg",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem  ",
-            "isDsa": false,
-            "isFront": true,
-            "isBackend": false
-        },
-        {
-            "name": "Project5",
-            "image": "/portfolio5.png",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem  ",
-            "isDsa": false,
-            "isFront": true,
-            "isBackend": false
-        },
-        {
-            "name": "Project6",
-            "image": "/portfolio6.jpg",
-            "gitLink": "",
-            "demoLink": "",
-            "desc": "Lorem Lorem Lorem Lorem Lorem  ",
-            "isDsa": false,
-            "isFront": false,
-            "isBackend": true
-        }
-    ],
-    "blogs": [
-        
-    ],
-    "education": [
-        {
-            "period": "2013 - 2017",
-            "college": "JMIT, KUK",
-            "course": "B.Tech",
-            "rank": "76%"
-        },
-        {
-            "period": "2012 - 2013",
-            "college": "Sant Nischal Singh Public School",
-            "course": "CBSE(XII)",
-            "rank": "84.4%"
-        },
-        {
-            "period": "2010 - 2011",
-            "college": "Sant Nischal Singh Public School",
-            "course": "CBSE(X)",
-            "rank": "9.8 CGPA"
-        }
+  "userInfo": {
+    "name": "Eishta Mittal",
+    "titleList": [
+      "design and develop things",
+      "design dynamic user experience",
+      "write blogs on medium..."
     ]
+  },
+  "about": {
+    "exp": 6,
+    "projects": 6,
+    "intro": "Hello, my name is Eishta Mittal. I have over 6 years of experience as a Software Developer. My interest in web development began in 2018 when I was assigned my first task at Sopra Steria. The enjoyment of designing and experimenting with the user interface fascinated me. I found it exhilarating, and since then, it has been an integral part of my journey. Delving deeper into frontend development, I have explored React JS, Ember JS, and Vue. Currently, my primary focus is on learning Next JS and server-side rendering. "
+  },
+  "skills": {
+    "languages": [
+      "React JS",
+      "Javascript",
+      "CSS",
+      "HTML",
+      "Thunk",
+      "Redux",
+      "Redux Form",
+      "Next JS",
+      "GraphQL"
+    ],
+    "tools": ["GIT", "Jira", "VS code"]
+  },
+  "experience": [
+    {
+      "org": "Expedia Group",
+      "position": "Software Developer",
+      "workPeriod": "Dec 2021-Present"
+    },
+    {
+      "org": "Walmart Global Tech",
+      "position": "SDE-III",
+      "workPeriod": "Dec 2021-Present"
+    },
+    {
+      "org": "Nagarro Software Private Limited",
+      "position": "Senior Software Engineer",
+      "workPeriod": "Nov 2020 - Dec 2021"
+    },
+    {
+      "org": "Sopra Steria",
+      "position": "Senior Engineer",
+      "workPeriod": "Feb 2019 - Nov 2020"
+    },
+    {
+      "org": "Sopra Steria",
+      "position": "Junior Engineer",
+      "workPeriod": "Nov 2017 - Feb 2019"
+    }
+  ],
+  "services": {
+    "uiUx": [],
+    "webDev": [],
+    "content": []
+  },
+  "socialLinks": {
+    "linkedIn": "https://www.linkedin.com/in/eishtamittal-react-developer",
+    "github": "https://github.com/Eishta",
+    "medium": "https://medium.com/@eishta"
+  },
+  "contact": {
+    "email": "eishtamittal9@gmail.com",
+    "phoneNumber": "9999999999",
+    "messenger": ""
+  },
+  "testimonials": [
+    {
+      "name": "Bidisha Das",
+      "position": "SSE-II",
+      "image": "/avatar1.jpg",
+      "desc": "Motivated, good to work with and extremely Knowledgable. Eishta has always been hard working and dedicated and we have solved a lot of problems together."
+    },
+    {
+      "name": "Divya Chauhan",
+      "position": "Engineering Lead",
+      "image": "/avatar2.jpg",
+      "desc": "Very talented and professional developer. Got to learn a lot working with you Eishta! Highly recommended.."
+    },
+    {
+      "name": "Pulkit Kashyap",
+      "position": "SDE-2",
+      "image": "/avatar3.jpg",
+      "desc": "Eishta is a quick learner and a very hardworking person. I worked with her on various UI related tasks. She quickly took ownership of various tracks and made sure to deliver them on time. Also, really appreciate the fact she would go above and beyond to help her peers."
+    },
+    {
+      "name": "Bhanupriya KaliaBhanupriya",
+      "position": "Consultant",
+      "image": "/avatar3.jpg",
+      "desc": "Eishta is a hard working person and a team worker. It was really nice to work with her on a project which demanded a lot of effort and attention to details, and she was able to work calmly under pressure even after not being well. "
+    },
+    {
+      "name": "Naveen Jain",
+      "position": "",
+      "image": "/avatar3.jpg",
+      "desc": "Eishta was a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. She is very passionate and has great vision for his work. Her focus keeps everything moving smoothly, she makes sure all the deadlines are met, and makes sure that whatever project she is working on, meets the highest standards. Very good person. Great employee with a very strong problem solving skills. Eishta is an asset to any company"
+    },
+    {
+      "name": "Anshul Gupta",
+      "position": "Senior Analyst",
+      "image": "/avatar3.jpg",
+      "desc": "I was impressed by eishta ability to handle any situation calmly and patiently, even with the toughest clients. Her multitasking abilty helped us to achieve most of the tasks with in a time. "
+    },
+    {
+      "name": "Vikram Kharata",
+      "position": "Senior Project Manager",
+      "image": "/avatar3.jpg",
+      "desc": "Eishta is an excellent team player & is full stack developer with a niche in frontend skills. I worked with her for more than 2 years, and found her to be a dependable, enthusiastic & motivated team player. She adapts to situations quickly & has an eagerness to learn more. I have seen her transition from a college graduate to a skilled & confident software developer. She is an asset to any team & I am sure she will reach new heights of success. "
+    },
+    {
+      "name": "Vartika Gupta",
+      "position": "Technical Architect",
+      "image": "/avatar3.jpg",
+      "desc": "I worked with Eishta for delivering few critical frontend tasks. She possess strong analysis and code debugging skills. Her inquisitiveness to understand functional model for modules is much appreciated. She was also part of project events coordinating team and always ensured perfect and well organised execution of all sort of project events."
+    },
+    {
+      "name": "Nikhil Gupta",
+      "position": "SSE",
+      "image": "",
+      "desc": "I have worked with Eishta for around 2 years in a large scale project. Although being a fresh graduate, I have seen Eishta handling frontend of the project module single-handedly, she had been a significant key player for the success of the project. The best part of Eishta is that she believes in constant learning and thus always provides best and optimal solution to any sort of questions. She is very optimistic and a smart worker, I wish all the luck to her future endeavours."
+    },
+    {
+      "name": "Himanshu Chitkara",
+      "position": "SDE-III",
+      "desc": "It’s rare that you come across standout talent like Eishta.I had the pleasure of working with her for two years at Sopra Steria, collaborating on several project teams.Her ability to juggle multiple projects was unlike any I’ve seen before and made a dramatic difference in the productivity level of our team.She would be an asset to any team."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project1",
+      "image": "/portfolio1.jpg",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem",
+      "isDsa": true,
+      "isFront": false,
+      "isBackend": false
+    },
+    {
+      "name": "Project2",
+      "image": "/portfolio2.jpg",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem  ",
+      "isDsa": true,
+      "isFront": false,
+      "isBackend": false
+    },
+    {
+      "name": "Project3",
+      "image": "/portfolio3.jpg",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem  ",
+      "isDsa": false,
+      "isFront": true,
+      "isBackend": false
+    },
+    {
+      "name": "Project4",
+      "image": "/portfolio4.jpg",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem  ",
+      "isDsa": false,
+      "isFront": true,
+      "isBackend": false
+    },
+    {
+      "name": "Project5",
+      "image": "/portfolio5.png",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem  ",
+      "isDsa": false,
+      "isFront": true,
+      "isBackend": false
+    },
+    {
+      "name": "Project6",
+      "image": "/portfolio6.jpg",
+      "gitLink": "",
+      "demoLink": "",
+      "desc": "Lorem Lorem Lorem Lorem Lorem  ",
+      "isDsa": false,
+      "isFront": false,
+      "isBackend": true
+    }
+  ],
+  "blogs": [],
+  "education": [
+    {
+      "period": "2013 - 2017",
+      "college": "JMIT, Kurukshetra University",
+      "course": "B.Tech",
+      "rank": "76%"
+    },
+    {
+      "period": "2012 - 2013",
+      "college": "Sant Nischal Singh Public School",
+      "course": "CBSE(XII)",
+      "rank": "84.4%"
+    },
+    {
+      "period": "2010 - 2011",
+      "college": "Sant Nischal Singh Public School",
+      "course": "CBSE(X)",
+      "rank": "9.8 CGPA"
+    }
+  ]
 }
